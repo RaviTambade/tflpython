@@ -65,13 +65,6 @@ A project-based approach to learning Python is a great way to solidify your unde
      - An e-commerce website
      - A social media app
 
-### Resources
-- **Books**: Consider books like "Automate the Boring Stuff with Python" for practical projects.
-- **Online Courses**: Platforms like Codecademy, Udemy, and Coursera offer structured courses.
-- **Documentation**: Familiarize yourself with the official Python documentation and library references.
 
-### Continuous Learning
-- **Contribute to Open Source**: Explore GitHub for projects you can contribute to.
-- **Join Communities**: Engage with communities like Stack Overflow, Reddit, or local meetups to learn and share.
 
 By following this roadmap and focusing on hands-on projects, you'll gain practical experience and a deeper understanding of Python. If you have any specific areas you want to explore further or need project ideas, feel free to ask!
