@@ -1,3 +1,6 @@
+# JSON for serialization and deserialization,
+# making it easy to store and retrieve data in a human-readable format
+
 import json
 
 class Customer:
@@ -37,7 +40,7 @@ def deserialize(filename):
 
 # Example usage
 if __name__ == "__main__":
-    
+
     customers = [
         Customer("Shivkumar", "654-456-7890"),
         Customer("Sameer", "876-765-4321"),
