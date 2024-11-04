@@ -65,6 +65,4 @@ A project-based approach to learning Python is a great way to solidify your unde
      - An e-commerce website
      - A social media app
 
-
-
-By following this roadmap and focusing on hands-on projects, you'll gain practical experience and a deeper understanding of Python. If you have any specific areas you want to explore further or need project ideas, feel free to ask!
+By following this roadmap and focusing on hands-on projects, you'll gain practical experience and a deeper understanding of Python.
