@@ -1,20 +1,17 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
-
-
 from .models import Customer, Product
+from .forms import LoginForm,RegisterForm
 
-#action methods
-
-
+#action methods(Views)
 def home(request):
     #return HttpResponse("Welcome to Transflower")
     return render(request, 'HelloApp/home/home.html')
 
 def about(request):
     #return HttpResponse("Transflower Learning Pvt. Ltd.")
-    return render(request, 'HelloApp/home/about.html')
-   
+    return render(request, 'HelloApp/home/about.html')  
+
 def contact(request):
     #return render(request, 'HelloApp/home.html')
     #return HttpResponse("<p>601, Rama Apartment , Walwekar Nagar </p>")
@@ -42,9 +39,6 @@ def flowers(request):
     # return JsonResponse({'products': flowers})
 
 def customers(request):
-
-    customer=Customer("Sachin", "sachin.t@gmail.com", "988767654")
-
     customers = [
     Customer("Sachin", "sachin.t@gmail.com", "988767654"),
     Customer("Ravi", "sachin.t@gmail.com", "988767654"),
@@ -52,5 +46,35 @@ def customers(request):
     Customer("Sarang", "sachin.t@gmail.com", "988767654"),
     Customer("Seema", "sachin.t@gmail.com", "988767654"),
     ]
-
     return render(request, 'HelloApp/crm/customers.html',{'customers': customers})
+ #step 4
+def login(request):
+    if request.method == 'POST':
+        form = LoginForm(request.POST)
+        if form.is_valid():
+            # Process the data (e.g., save it to the database or send an email)
+            email = form.cleaned_data['email']
+            password = form.cleaned_data['password']
+           
+            # For now, just render a success message
+            return render(request, 'HelloApp/home/welcome.html', {'password': password, 'email': email})
+    else:
+        form = LoginForm()
+    return render(request, 'HelloApp/auth/login.html', {'form': form})
+
+def register(request):
+    if request.method == 'POST':
+        form = RegisterForm(request.POST)
+        if form.is_valid():
+            # Process the data (e.g., save it to the database or send an email)
+            email = form.cleaned_data['email']
+            location = form.cleaned_data['location']
+            contactnumber = form.cleaned_data['contactnumber']
+            firstname = form.cleaned_data['firstname']
+            lastname = form.cleaned_data['lastname']
+           
+            # For now, just render a success message
+            return render(request, 'HelloApp/home/welcome.html',  {'password': 'oooo', 'email': email})
+    else:
+        form = RegisterForm()
+    return render(request, 'HelloApp/auth/register.html', {'form': form})
