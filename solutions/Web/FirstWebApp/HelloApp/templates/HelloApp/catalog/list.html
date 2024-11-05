@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Gallery</title>
+</head>
+<body>
+    <body>
+        <h2>Todays products for sale</h2>
+        <hr/>
+       
+        <h1>Product List</h1>
+        {% if products %}
+            <ul>
+                {% for product in products %}
+                    <li>
+                        <strong>{{ product.name }}</strong><br>
+                        Description: {{ product.description }}<br>
+                        Price: ${{ product.price }}<br>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No products available.</p>
+        {% endif %}
+
+    </body>
+</body>
+</html>

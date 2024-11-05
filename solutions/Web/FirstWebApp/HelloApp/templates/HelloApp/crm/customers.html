@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Gallery</title>
+</head>
+<body>
+    <body>
+        <h2> Top 10 Customers</h2>
+        <hr/>
+        <!-- Dynamic Page   (html + python code  DTL)-->
+        <h1>Customers List</h1>
+        {% if customers %}
+            <ul>
+                {% for customer in customers %}
+                    <li>
+                        <strong>{{ customer.name }}</strong><br>
+                        Email: {{ customer.email }}<br>
+                        Contact Number: {{ customer.contactnumber }}<br>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No customers available.</p>
+        {% endif %}
+    </body>
+</body>
+</html>
