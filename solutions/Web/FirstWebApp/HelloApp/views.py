@@ -47,7 +47,8 @@ def customers(request):
     Customer("Seema", "sachin.t@gmail.com", "988767654"),
     ]
     return render(request, 'HelloApp/crm/customers.html',{'customers': customers})
- #step 4
+
+#step 4
 def login(request):
     if request.method == 'POST':
         form = LoginForm(request.POST)
@@ -72,7 +73,6 @@ def register(request):
             contactnumber = form.cleaned_data['contactnumber']
             firstname = form.cleaned_data['firstname']
             lastname = form.cleaned_data['lastname']
-           
             # For now, just render a success message
             return render(request, 'HelloApp/home/welcome.html',  {'password': 'oooo', 'email': email})
     else:
