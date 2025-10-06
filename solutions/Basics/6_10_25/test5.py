@@ -1,4 +1,9 @@
 
+
+#class consist of functions and data members
+
+#There are special type of function constructor
+
 class Employee:
     def __init__(self, name, salary,contactnumber): # constructor
         self.name = name                #instance variables (member Variable)
@@ -13,8 +18,7 @@ class Employee:
 
 
 # Objet has state and behaviour and identity
-e1 = Employee("Seeta", 50000,"9773456892")  # object is constructed using Class
-
+e1 =Employee("Seeta", 50000,"9773456892")  # object is constructed using Class
 e2= Employee("Sonam Wangchuk","780000","9565464564")   # orphan, unrefernced object
 e2= Employee("Shakrukh Khan",788000,"855683454")
 
