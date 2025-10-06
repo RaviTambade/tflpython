@@ -1,0 +1,51 @@
+ProductID,Name,Category,Price,Rating,Stock
+101,Laptop,Electronics,60000,4.5,25
+102,Headphones,Electronics,1500,4.0,50
+103,Keyboard,Accessories,700,3.8,100
+104,Mouse,Accessories,400,4.2,200
+105,Monitor,Electronics,12000,4.7,30
+106,T-Shirt,Clothing,800,4.1,150
+107,Jeans,Clothing,1500,4.3,80
+108,Smartphone,Electronics,35000,4.6,40
+109,Sneakers,Footwear,2500,4.4,60
+110,Socks,Clothing,200,4.0,300
+111,Tablet,Electronics,25000,4.3,35
+112,Charger,Accessories,500,4.1,150
+113,Backpack,Accessories,1200,4.2,70
+114,Smartwatch,Electronics,15000,4.5,45
+115,Jacket,Clothing,2500,4.3,60
+116,Cap,Clothing,500,3.9,120
+117,Belt,Accessories,400,4.0,80
+118,Desk,Home,8000,4.4,20
+119,Chair,Home,5000,4.2,30
+120,Table Lamp,Home,1500,4.1,50
+121,Notebook,Stationery,50,4.5,500
+122,Pen,Stationery,20,4.2,1000
+123,Printer,Electronics,12000,4.3,15
+124,Router,Electronics,3000,4.1,40
+125,External HDD,Electronics,5000,4.2,25
+126,Coffee Maker,Home,7000,4.4,18
+127,Blender,Home,3500,4.1,25
+128,Air Fryer,Home,9000,4.5,12
+129,Vacuum Cleaner,Home,15000,4.6,10
+130,Water Bottle,Accessories,300,4.0,200
+131,Running Shoes,Footwear,3500,4.3,55
+132,Sandals,Footwear,1200,4.0,80
+133,Sports Watch,Accessories,3500,4.4,40
+134,Hair Dryer,Home,2500,4.2,30
+135,Earbuds,Electronics,2000,4.1,100
+136,Camera,Electronics,45000,4.7,12
+137,Tripod,Accessories,1500,4.2,45
+138,Microphone,Electronics,8000,4.5,20
+139,Speaker,Electronics,5000,4.3,35
+140,Notebook Stand,Accessories,1200,4.1,50
+141,Office Chair,Home,12000,4.5,15
+142,Sofa,Home,45000,4.6,5
+143,Dining Table,Home,35000,4.4,8
+144,Bed,Home,40000,4.7,6
+145,Pillow,Home,800,4.2,150
+146,Curtains,Home,2500,4.1,40
+147,Mattress,Home,20000,4.5,10
+148,Scarf,Clothing,700,4.0,60
+149,Gloves,Clothing,400,4.1,80
+150,Sunglasses,Accessories,1500,4.3,50
