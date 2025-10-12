@@ -37,11 +37,11 @@ Now, I say, let’s reverse it:
 
 > **Customer → Business → System → Logic → Language**
 
-Start with the **Customer** — understand who they are and what they need.
-Then explore their **Business Domain** — learn how they serve people, earn money, and measure success.
-Then learn **System Thinking** — how different parts (people, processes, and tools) connect.
-Then comes **Logical Thinking** — how to represent that system in steps, decisions, and data.
-Finally — choose a **Language** — like Python — to bring that logic to life.
+- Start with the **Customer** — understand who they are and what they need.
+- Then explore their **Business Domain** — learn how they serve people, earn money, and measure success.
+- Then learn **System Thinking** — how different parts (people, processes, and tools) connect.
+- Then comes **Logical Thinking** — how to represent that system in steps, decisions, and data.
+- Finally — choose a **Language** — like Python — to bring that logic to life.
 
 
 ### 🐍 **Why start with Python?**
