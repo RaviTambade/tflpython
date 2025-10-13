@@ -50,6 +50,3 @@ products=[
 discounted=list(map( lambda p: { **p, "price": p["price"]* 0.9,"rating":p["rating"]* 2},products))
 print ( discounted)
 
-
-
-=>
