@@ -1,6 +1,4 @@
- 
-
-👨‍🏫 **Singleton: The Bank Manager and the Vault**
+ 👨‍🏫 **Singleton: The Bank Manager and the Vault**
 
 Imagine a **bank** in a busy city.
 
@@ -12,8 +10,6 @@ Now, in programming, sometimes you want a class to behave like this **single vau
 * Only **one instance** exists.
 * All parts of your application **share this single instance**.
 * This is called the **Singleton Pattern**.
-
-
 
 ### 🐍 Python Essentials — Singleton Pattern
 
