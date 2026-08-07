@@ -1,8 +1,4 @@
-Absolutely! Let’s dive into **Python dunder (double underscore) methods** in a **mentor storytelling style**, with a relatable example.
-
----
-
-### **Story Setting: Banking – Customer Accounts**
+## * Banking – Customer Accounts**
 
 Imagine you’ve joined a **bank’s software team**, and your manager says:
 
@@ -12,8 +8,6 @@ You think:
 *"Okay, I can create a class… but how can I make it behave like a real object in Python? How do I customize creation and printing?"*
 
 This is where **dunder methods** come into play.
-
----
 
 ### **What Are Dunder Methods?**
 
@@ -28,7 +22,6 @@ This is where **dunder methods** come into play.
 
 Think of them as **magic hooks** that let Python objects behave the way you want.
 
----
 
 ### **Python Example: Bank Account**
 
@@ -58,8 +51,6 @@ class BankAccount:
             print("Insufficient balance!")
 ```
 
----
-
 ### **Using the Class**
 
 ```python
@@ -83,15 +74,11 @@ Withdrew $300. New balance: $1200
 BankAccount(Alice, Balance: $1200)
 ```
 
----
-
 ### **Why This Is Powerful**
 
 1. **`__init__`** ensures every account starts properly without forgetting essential info.
 2. **`__str__`** makes objects **human-readable**, so printing them isn’t messy.
 3. You can **customize almost every behavior** of Python objects: addition, comparison, length, iteration, etc.
-
----
 
 ### **Commercial Analogy**
 
@@ -101,7 +88,6 @@ Think of it like **customer account software in a real bank**:
 * When a **bank teller prints account info**, it should look nice and readable (`__str__`).
 * When accounts are compared, summed, or manipulated in reports, **Python dunder methods handle it automatically**, making the system robust and Pythonic.
 
----
 
 💡 **Mentor Tip:**
 Whenever you create a class in Python, ask yourself:
@@ -111,5 +97,3 @@ Whenever you create a class in Python, ask yourself:
 * How should it **interact with operators**? → `__add__`, `__eq__`, etc.
 
 This mindset will make your objects **intuitive, reusable, and professional**.
-
- 
