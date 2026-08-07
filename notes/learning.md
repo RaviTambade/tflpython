@@ -1,21 +1,19 @@
+### Phase 1 — Foundations of Programming
+Module 1 — Basic Syntax and Data Types
+Module 2 — Control Structures
+### Phase 2 — Modular Programming
+Module 3 — Functions
+Module 4 — Modules and Packages
+### Phase 3 — Object-Oriented Programming
+ Module 5 — OOP
+### Phase 4 — Data Handling
+Module 7 — Python Libraries
 
-## Phase 1 — Foundations of Programming
-###### Module 1 — Basic Syntax and Data Types
-###### 🔄 Module 2 — Control Structures
-## ⚙️ Phase 2 — Modular Programming
-###### 📚 Module 3 — Functions
-###### 📦 Module 4 — Modules and Packages
-## 🏛️ Phase 3 — Object-Oriented Programming
-###### Module 5 — OOP
-###### 💾 Phase 4 — Data Handling
-###### Module 7 — Python Libraries
-
-## 🌐 Phase 5 — Web Development
-## 🔌 Phase 6 — APIs
-## 🧪 Phase 7 — Testing
-## 🚀 Phase 8 — Advanced Python
-## 🎓 Phase 9 — Capstone Project
-
+### Phase 5 — Web Development
+### Phase 6 — APIs
+### Phase 7 — Testing
+### Phase 8 — Advanced Python
+### Phase 9 — Capstone Project
 
 ## 🏢 Skills You Will Gain
 
