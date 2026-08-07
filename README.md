@@ -313,4 +313,4 @@ Throughout this course, I will not merely teach Python syntax. Together, we will
 
 
 ## Tap your potential
- <a href=""> Let us get started </a>
+ <a href="https://github.com/RaviTambade/tflpython/blob/main/notes/learning.md"> Let us get started </a>
