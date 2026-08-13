@@ -69,15 +69,7 @@ Programming is simply the language through which you express those solutions.
 For many years we followed this path.
 
 ```text
-C
-↓
-C++
-↓
-Java or C#
-↓
-Python
-↓
-Project
+C -> C++ -> Java or C# -> Python -> Project
 ```
 
 Students learned syntax. Then more syntax. Then more syntax. Only at the end did they discover why any of it mattered. Today, at Transflower, we believe there is a better approach.
