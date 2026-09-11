@@ -6,7 +6,7 @@
 
 class CSStudent:
 
-    #Class Variables
+    #Class Variables (static variables)
     stream ='cse'
 
     #The init method or constructorcd ocd 
