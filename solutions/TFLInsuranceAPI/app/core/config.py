@@ -1,0 +1,2 @@
+APP_NAME = "TFLInsurance API"
+APP_VERSION = "1.0"
