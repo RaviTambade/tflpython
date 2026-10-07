@@ -1,0 +1,346 @@
+##  Switch in Python 
+
+Imagine you have a menu:
+
+```text
+1 → Add Customer
+2 → Update Customer
+3 → Delete Customer
+4 → Exit
+```
+
+In C# or Java, you might write a `switch`. In modern Python, you can write:
+
+```python
+choice = 2
+
+match choice:
+    case 1:
+        print("Add Customer")
+    case 2:
+        print("Update Customer")
+    case 3:
+        print("Delete Customer")
+    case 4:
+        print("Exit")
+    case _:
+        print("Invalid choice")
+```
+
+The `_` represents the **default case**.
+
+---
+
+## 1. Basic `match...case`
+
+```python
+day = 2
+
+match day:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case 3:
+        print("Wednesday")
+    case _:
+        print("Invalid day")
+```
+
+Output:
+
+```text
+Tuesday
+```
+
+Think of it as:
+
+```text
+match the value
+       ↓
+ ┌─────┼─────┐
+ ↓     ↓     ↓
+ 1     2     3
+ ↓     ↓     ↓
+Mon   Tue   Wed
+```
+
+ 
+
+## 2. Multiple values in one case
+
+You can match multiple values using `|`.
+
+```python
+day = 6
+
+match day:
+    case 1 | 2 | 3 | 4 | 5:
+        print("Weekday")
+
+    case 6 | 7:
+        print("Weekend")
+
+    case _:
+        print("Invalid day")
+```
+
+Output:
+
+```text
+Weekend
+```
+
+This is similar to multiple `case` labels in traditional switch statements.
+
+ 
+
+## 3. Using Strings
+
+`match` is not limited to numbers.
+
+```python
+role = "admin"
+
+match role:
+    case "admin":
+        print("Full access")
+
+    case "manager":
+        print("Management access")
+
+    case "developer":
+        print("Development access")
+
+    case "tester":
+        print("Testing access")
+
+    case _:
+        print("Unknown role")
+```
+
+This is useful when implementing things such as:
+
+* user roles
+* commands
+* status values
+* menu selections
+* application states
+
+ 
+
+# 4. `match...case` with Conditions
+
+Python's pattern matching can go beyond a traditional switch.
+
+```python
+age = 25
+
+match age:
+    case age if age < 18:
+        print("Minor")
+
+    case age if age >= 18 and age < 60:
+        print("Adult")
+
+    case age if age >= 60:
+        print("Senior citizen")
+```
+
+Here the `if` part is called a **guard**.
+
+The important idea is:
+
+> `match...case` is more powerful than a simple switch.
+
+  
+
+# 5. Real-World Example — Order Status
+
+Imagine an e-commerce application.
+
+```python
+status = "shipped"
+
+match status:
+    case "pending":
+        print("Order is waiting for processing")
+
+    case "confirmed":
+        print("Order confirmed")
+
+    case "shipped":
+        print("Order is on the way")
+
+    case "delivered":
+        print("Order delivered")
+
+    case "cancelled":
+        print("Order cancelled")
+
+    case _:
+        print("Unknown order status")
+```
+
+This is much easier to read than a long chain of `if...elif`.
+
+ 
+
+# 6. Traditional Python Alternative — `if...elif`
+
+Before Python 3.10, developers commonly used:
+
+```python
+choice = 2
+
+if choice == 1:
+    print("Add")
+
+elif choice == 2:
+    print("Update")
+
+elif choice == 3:
+    print("Delete")
+
+else:
+    print("Invalid choice")
+```
+
+This is still perfectly valid Python.
+
+So don't think:
+
+> "`match` replaced `if...elif`."
+
+It didn't.
+
+Both have their place.
+
+ 
+
+# 7. Dictionary as an Alternative
+
+Sometimes you don't need either `match` or `if...elif`. For simple command-to-function mapping, a dictionary can be cleaner.
+
+```python
+def add():
+    print("Adding customer")
+
+
+def update():
+    print("Updating customer")
+
+
+def delete():
+    print("Deleting customer")
+
+
+actions = {
+    1: add,
+    2: update,
+    3: delete
+}
+
+choice = 2
+
+action = actions.get(choice)
+
+if action:
+    action()
+else:
+    print("Invalid choice")
+```
+
+This demonstrates an important software engineering principle:
+
+> **Choose the simplest construct that expresses the intent clearly.**
+
+ 
+
+# 8. `match` Can Match Data Structures
+
+This is where Python's `match` becomes particularly interesting.
+
+```python
+command = ["add", "Ravi"]
+
+match command:
+    case ["add", name]:
+        print(f"Adding customer: {name}")
+
+    case ["delete", name]:
+        print(f"Deleting customer: {name}")
+
+    case ["update", name]:
+        print(f"Updating customer: {name}")
+
+    case _:
+        print("Unknown command")
+```
+
+Output:
+
+```text
+Adding customer: Ravi
+```
+
+Here `match` isn't merely comparing one value.
+
+It is **matching the structure and extracting data**.
+
+
+# 9. Software Engineering Perspective
+
+A beginner may see this:
+
+```python
+match status:
+```
+
+and think:  "This is just another syntax for switch." A software engineer should ask: **"What decision am I modeling?"**
+
+For example:
+
+```text
+Order
+  │
+  ├── Pending
+  ├── Confirmed
+  ├── Shipped
+  ├── Delivered
+  └── Cancelled
+```
+
+The `match` statement expresses the **business decision**. That makes the code easier to understand.
+
+# 10. `switch` vs Python `match`
+
+| Concept            | Java / C# / C++              | Python                      |
+| ------------------ | ---------------------------- | --------------------------- |
+| Traditional switch | `switch`                     | Not traditionally available |
+| Modern equivalent  | `switch`                     | `match...case`              |
+| Default            | `default`                    | `case _`                    |
+| Multiple cases     | Multiple `case`              | `case 1 \| 2`               |
+| Conditions         | Usually additional logic     | Guards with `if`            |
+| Pattern matching   | Limited / language-dependent | Powerful                    |
+| Introduced         | —                            | Python 3.10                 |
+
+--- 
+# 🌻 Mentor's Takeaway
+
+Don't memorize:  "`match` is Python's switch." Understand the bigger idea:  **A program constantly makes decisions.**
+We can express those decisions using:
+
+```text
+if
+ ↓
+if / elif / else
+ ↓
+match / case
+ ↓
+dictionary mapping
+ ↓
+polymorphism / strategy pattern
+```
+ 
+As software engineers, our goal is not to ask: **"Which syntax should I use?"** Instead ask:  **"Which design makes this decision easiest to understand, test, maintain, and extend?"** That is the difference between **learning Python syntax** and **learning to engineer software with Python**.
