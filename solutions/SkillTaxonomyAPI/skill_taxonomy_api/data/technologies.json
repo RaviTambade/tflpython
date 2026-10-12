@@ -1,0 +1,116 @@
+[
+  {
+    "id": "python",
+    "name": "Python",
+    "description": "General-purpose programming language.",
+    "skill_ids": ["python-development"]
+  },
+  {
+    "id": "azure",
+    "name": "Microsoft Azure",
+    "description": "Cloud computing platform and services.",
+    "skill_ids": ["cloud-architecture"]
+  },
+  {
+    "id": "dotnet",
+    "name": ".NET",
+    "description": "Microsoft development platform for building web APIs, enterprise applications, cloud services, and distributed systems using C#.",
+    "skill_ids": [
+      "csharp-programming", "dotnet-development", "aspnet-core",
+      "web-api-development", "entity-framework-core", "linq",
+      "dependency-injection", "dotnet-testing", "microservices"
+    ]
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "description": "Object-oriented programming language used for enterprise applications, backend systems, and cross-platform software development.",
+    "skill_ids": [
+      "java-programming", "object-oriented-programming", "java-collections",
+      "exception-handling", "multithreading", "jdbc", "java-streams", "junit-testing"
+    ]
+  },
+  {
+    "id": "springboot",
+    "name": "Spring Boot",
+    "description": "Java framework for building production-ready REST APIs, microservices, and enterprise backend applications.",
+    "skill_ids": [
+      "spring-core", "spring-boot-development", "spring-mvc", "spring-data-jpa", "spring-security", "rest-api-development",
+      "spring-boot-testing", "microservices"
+    ]
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "description": "Open-source operating system environment used for server administration, application deployment, networking, and DevOps.",
+    "skill_ids": [
+      "linux-fundamentals",  "linux-command-line", "file-permissions", "process-management",
+      "shell-scripting", "linux-networking", "package-management", "ssh", "linux-server-administration"
+    ]
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "description": "JavaScript runtime for building scalable backend applications, REST APIs, event-driven services, and real-time applications.",
+    "skill_ids": [
+      "javascript-programming", "nodejs-development", "expressjs",
+      "rest-api-development", "npm", "asynchronous-programming", "authentication-and-authorization",
+      "nodejs-testing", "websocket-development"
+    ]
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "description": "JavaScript library for building component-based user interfaces and interactive single-page web applications.",
+    "skill_ids": [
+      "javascript-programming", "react-fundamentals", "jsx",
+      "react-components", "react-hooks", "state-management",
+      "react-router", "api-integration", "react-testing"
+    ]
+  },
+  
+  {
+    "id": "angular",
+    "name": "Angular",
+    "description": "TypeScript-based web application framework for building component-driven, scalable single-page applications.",
+    "skill_ids": [
+      "javascript-programming",
+      "typescript-programming",
+      "angular-fundamentals",
+      "angular-components",
+      "angular-templates",
+      "angular-directives",
+      "angular-services",
+      "dependency-injection",
+      "angular-routing",
+      "angular-forms",
+      "rxjs",
+      "state-management",
+      "api-integration",
+      "angular-testing",
+      "angular-build-deployment"
+    ]
+  },
+  {
+    "id": "jquery",
+    "name": "jQuery",
+    "description": "JavaScript library for DOM manipulation, event handling, animations, and AJAX-based web development.",
+    "skill_ids": [
+      "javascript-programming",
+      "jquery-fundamentals",
+      "dom-manipulation",
+      "jquery-selectors",
+      "jquery-events",
+      "jquery-effects",
+      "jquery-traversing",
+      "jquery-dom-manipulation",
+      "jquery-ajax",
+      "json-handling",
+      "form-validation",
+      "event-delegation",
+      "html-css-integration",
+      "jquery-plugins",
+      "jquery-debugging"
+    ]
+  }
+]

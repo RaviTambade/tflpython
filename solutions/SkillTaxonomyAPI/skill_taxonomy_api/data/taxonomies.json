@@ -1,0 +1,154 @@
+[
+ 
+  {
+    "id": "software-engineering",
+    "name": "Software Engineering",
+    "description": "Core practices and technologies for designing, building, testing, deploying, and maintaining software systems.",
+    "version": "1.0"
+  },
+  {
+    "id": "programming-languages",
+    "name": "Programming Languages",
+    "description": "Programming language fundamentals, syntax, semantics, object-oriented programming, functional programming, and language-specific ecosystems.",
+    "version": "1.0"
+  },
+  {
+    "id": "web-engineering",
+    "name": "Web Engineering",
+    "description": "Frontend and backend web technologies, browser programming, web standards, APIs, and full-stack application development.",
+    "version": "1.0"
+  },
+  {
+    "id": "backend-engineering",
+    "name": "Backend Engineering",
+    "description": "Server-side development, business logic, API design, database integration, authentication, and distributed application services.",
+    "version": "1.0"
+  },
+  {
+    "id": "frontend-engineering",
+    "name": "Frontend Engineering",
+    "description": "User interface architecture, component-based development, browser performance, accessibility, and client-side application engineering.",
+    "version": "1.0"
+  },
+  {
+    "id": "fullstack-engineering",
+    "name": "Full Stack Engineering",
+    "description": "End-to-end application development across user interfaces, backend services, data storage, integration, and deployment.",
+    "version": "1.0"
+  },
+  {
+    "id": "software-architecture-design",
+    "name": "Software Architecture and Design",
+    "description": "Architectural styles, design principles, design patterns, modularity, scalability, maintainability, and system-level decision making.",
+    "version": "1.0"
+  },
+  {
+    "id": "data-management",
+    "name": "Data Management and Databases",
+    "description": "Data modeling, relational and NoSQL databases, SQL, transactions, data integrity, performance optimization, and database administration.",
+    "version": "1.0"
+  },
+  {
+    "id": "cloud-computing",
+    "name": "Cloud Computing",
+    "description": "Cloud platforms, infrastructure, managed services, cloud-native application development, security, scalability, and cost management.",
+    "version": "1.0"
+  },
+  {
+    "id": "devops-platform-engineering",
+    "name": "DevOps and Platform Engineering",
+    "description": "CI/CD automation, infrastructure as code, container platforms, orchestration, deployment automation, and developer platform capabilities.",
+    "version": "1.0"
+  },
+  {
+    "id": "operating-systems-infrastructure",
+    "name": "Operating Systems and Infrastructure",
+    "description": "Operating system concepts, Linux administration, processes, memory, networking, virtualization, and server infrastructure.",
+    "version": "1.0"
+  },
+  {
+    "id": "quality-engineering",
+    "name": "Quality Engineering",
+    "description": "Software quality assurance, manual testing, automated testing, API testing, performance testing, and continuous quality practices.",
+    "version": "1.0"
+  },
+  {
+    "id": "cybersecurity",
+    "name": "Cybersecurity",
+    "description": "Application security, identity and access management, secure coding, vulnerability management, network security, and threat mitigation.",
+    "version": "1.0"
+  },
+  {
+    "id": "distributed-systems-engineering",
+    "name": "Distributed Systems Engineering",
+    "description": "Microservices, messaging, distributed communication, fault tolerance, consistency, resilience, and scalable multi-service applications.",
+    "version": "1.0"
+  },
+  {
+    "id": "ai-engineering",
+    "name": "Artificial Intelligence Engineering",
+    "description": "AI application development, model integration, machine learning, LLM applications, RAG, tool calling, evaluation, and responsible AI practices.",
+    "version": "1.0"
+  },
+  {
+    "id": "data-engineering-analytics",
+    "name": "Data Engineering and Analytics",
+    "description": "Data pipelines, data transformation, ingestion, warehousing, analytics infrastructure, and data processing systems.",
+    "version": "1.0"
+  },
+  {
+    "id": "networking-communications",
+    "name": "Networking and Communications",
+    "description": "Network protocols, TCP/IP, DNS, HTTP, routing, sockets, network security, and troubleshooting distributed applications.",
+    "version": "1.0"
+  },
+  {
+    "id": "mobile-application-engineering",
+    "name": "Mobile Application Engineering",
+    "description": "Mobile user interfaces, application lifecycle, device integration, mobile APIs, performance, and cross-platform development.",
+    "version": "1.0"
+  },
+  {
+    "id": "embedded-systems-engineering",
+    "name": "Embedded Systems Engineering",
+    "description": "Firmware, microcontrollers, hardware interfaces, real-time systems, low-level programming, and resource-constrained applications.",
+    "version": "1.0"
+  },
+  {
+    "id": "automation-scripting",
+    "name": "Automation and Scripting",
+    "description": "Automating repetitive tasks, infrastructure operations, application workflows, testing activities, and system administration using scripts.",
+    "version": "1.0"
+  },
+  {
+    "id": "technical-leadership",
+    "name": "Technical Leadership",
+    "description": "Technical decision making, engineering mentorship, code reviews, architecture guidance, team collaboration, and engineering delivery.",
+    "version": "1.0"
+  },
+  {
+    "id": "product-project-delivery",
+    "name": "Product Engineering and Delivery",
+    "description": "Requirements analysis, product development, Agile practices, backlog management, iterative delivery, and continuous improvement.",
+    "version": "1.0"
+  },
+  {
+    "id": "professional-career-skills",
+    "name": "Professional and Career Skills",
+    "description": "Communication, collaboration, problem solving, workplace readiness, adaptability, professional conduct, and continuous learning.",
+    "version": "1.0"
+  },
+  {
+    "id": "blockchain-engineering",
+    "name": "Blockchain Engineering",
+    "description": "Distributed ledgers, smart contracts, cryptographic foundations, decentralized applications, and blockchain integration.",
+    "version": "1.0"
+  },
+  {
+    "id": "iot-engineering",
+    "name": "Internet of Things Engineering",
+    "description": "Connected devices, sensor integration, device communication, telemetry, edge computing, and IoT platform development.",
+    "version": "1.0"
+  }
+]
+ 

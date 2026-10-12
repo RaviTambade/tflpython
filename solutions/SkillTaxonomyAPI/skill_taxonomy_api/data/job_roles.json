@@ -1,0 +1,379 @@
+[ 
+  
+  {
+    "id": "backend-engineer",
+    "name": "Backend Engineer",
+    "description": "Builds and operates server-side applications, business logic, databases, and REST APIs.",
+    "skill_ids": [
+      "python-development",
+      "csharp-programming",
+      "dotnet-development",
+      "aspnet-core",
+      "java-programming",
+      "spring-boot-development",
+      "nodejs-development",
+      "web-api-development",
+      "database-development",
+      "dependency-injection"
+    ]
+  },
+  {
+    "id": "dotnet-developer",
+    "name": ".NET Developer",
+    "description": "Develops enterprise applications, web APIs, and backend services using C#, .NET, and ASP.NET Core.",
+    "skill_ids": [
+      "csharp-programming",
+      "dotnet-development",
+      "aspnet-core",
+      "web-api-development",
+      "entity-framework-core",
+      "linq",
+      "dependency-injection",
+      "dotnet-testing"
+    ]
+  },
+  {
+    "id": "java-developer",
+    "name": "Java Developer",
+    "description": "Builds object-oriented applications and backend services using Java, collections, exception handling, and testing frameworks.",
+    "skill_ids": [
+      "java-programming",
+      "object-oriented-programming",
+      "java-collections",
+      "exception-handling",
+      "multithreading",
+      "jdbc",
+      "junit-testing"
+    ]
+  },
+  {
+    "id": "springboot-developer",
+    "name": "Spring Boot Developer",
+    "description": "Builds production-ready Java REST APIs, database-driven services, and microservices using Spring Boot.",
+    "skill_ids": [
+      "java-programming",
+      "spring-core",
+      "spring-boot-development",
+      "spring-mvc",
+      "spring-data-jpa",
+      "spring-security",
+      "rest-api-development",
+      "spring-boot-testing"
+    ]
+  },
+  {
+    "id": "python-developer",
+    "name": "Python Developer",
+    "description": "Develops automation scripts, backend applications, APIs, and data-processing solutions using Python.",
+    "skill_ids": [
+      "python-development",
+      "object-oriented-programming",
+      "rest-api-development",
+      "database-development",
+      "python-testing",
+      "asynchronous-programming"
+    ]
+  },
+  {
+    "id": "nodejs-developer",
+    "name": "Node.js Developer",
+    "description": "Builds asynchronous backend services, REST APIs, and real-time applications using JavaScript and Node.js.",
+    "skill_ids": [
+      "javascript-programming",
+      "nodejs-development",
+      "expressjs",
+      "rest-api-development",
+      "npm",
+      "asynchronous-programming",
+      "authentication-and-authorization",
+      "nodejs-testing"
+    ]
+  },
+  {
+    "id": "frontend-engineer",
+    "name": "Frontend Engineer",
+    "description": "Builds accessible, responsive, and interactive user interfaces for web applications.",
+    "skill_ids": [
+      "html-css",
+      "javascript-programming",
+      "react-fundamentals",
+      "react-components",
+      "react-hooks",
+      "state-management",
+      "react-router",
+      "api-integration",
+      "frontend-testing"
+    ]
+  },
+  {
+    "id": "react-developer",
+    "name": "React Developer",
+    "description": "Develops reusable UI components and single-page applications using React and modern JavaScript.",
+    "skill_ids": [
+      "javascript-programming",
+      "react-fundamentals",
+      "jsx",
+      "react-components",
+      "react-hooks",
+      "state-management",
+      "react-router",
+      "api-integration",
+      "react-testing"
+    ]
+  },
+  {
+    "id": "fullstack-engineer",
+    "name": "Full Stack Engineer",
+    "description": "Develops end-to-end applications by integrating frontend interfaces, backend APIs, databases, and deployment workflows.",
+    "skill_ids": [
+      "javascript-programming",
+      "react-fundamentals",
+      "python-development",
+      "dotnet-development",
+      "web-api-development",
+      "database-development",
+      "version-control",
+      "software-testing"
+    ]
+  },
+  {
+    "id": "api-engineer",
+    "name": "API Engineer",
+    "description": "Designs, develops, secures, documents, and maintains reliable APIs and service integration contracts.",
+    "skill_ids": [
+      "web-api-development",
+      "aspnet-core",
+      "spring-boot-development",
+      "nodejs-development",
+      "authentication-and-authorization",
+      "api-testing",
+      "api-documentation"
+    ]
+  },
+  {
+    "id": "database-engineer",
+    "name": "Database Engineer",
+    "description": "Designs database schemas, optimizes queries, manages data integrity, and supports reliable data access.",
+    "skill_ids": [
+      "sql-programming",
+      "database-development",
+      "database-design",
+      "database-administration",
+      "query-optimization",
+      "entity-framework-core",
+      "jdbc"
+    ]
+  },
+  {
+    "id": "cloud-engineer",
+    "name": "Cloud Engineer",
+    "description": "Designs, provisions, secures, and operates cloud infrastructure, managed services, and application environments.",
+    "skill_ids": [
+      "cloud-architecture",
+      "linux-fundamentals",
+      "networking",
+      "containerization",
+      "cicd",
+      "security-engineering",
+      "observability-monitoring"
+    ]
+  },
+  {
+    "id": "azure-cloud-engineer",
+    "name": "Azure Cloud Engineer",
+    "description": "Deploys and manages applications, networking, identity, storage, and compute resources on Microsoft Azure.",
+    "skill_ids": [
+      "cloud-architecture",
+      "azure-administration",
+      "azure-networking",
+      "azure-compute",
+      "azure-storage",
+      "cloud-security",
+      "cicd"
+    ]
+  },
+  {
+    "id": "devops-engineer",
+    "name": "DevOps Engineer",
+    "description": "Automates software builds, testing, infrastructure provisioning, deployments, and operational monitoring.",
+    "skill_ids": [
+      "devops",
+      "linux-fundamentals",
+      "shell-scripting",
+      "containerization",
+      "kubernetes",
+      "cicd",
+      "version-control",
+      "observability-monitoring"
+    ]
+  },
+  {
+    "id": "site-reliability-engineer",
+    "name": "Site Reliability Engineer",
+    "description": "Improves system availability, resilience, performance, and operational reliability through automation and observability.",
+    "skill_ids": [
+      "linux-administration",
+      "networking",
+      "observability-monitoring",
+      "distributed-systems",
+      "incident-management",
+      "performance-testing",
+      "automation-scripting"
+    ]
+  },
+  {
+    "id": "automation-test-engineer",
+    "name": "Automation Test Engineer",
+    "description": "Automates API, UI, integration, and regression testing to improve software quality and release confidence.",
+    "skill_ids": [
+      "software-testing",
+      "automation-testing",
+      "api-testing",
+      "javascript-programming",
+      "nodejs-testing",
+      "dotnet-testing",
+      "performance-testing",
+      "cicd"
+    ]
+  },
+  {
+    "id": "qa-engineer",
+    "name": "Quality Assurance Engineer",
+    "description": "Validates functional and non-functional requirements through test planning, execution, defect tracking, and quality analysis.",
+    "skill_ids": [
+      "software-testing",
+      "manual-testing",
+      "test-case-design",
+      "api-testing",
+      "regression-testing",
+      "defect-management",
+      "agile-project-management"
+    ]
+  },
+  {
+    "id": "software-architect",
+    "name": "Software Architect",
+    "description": "Defines system structure, component boundaries, integration contracts, design principles, and architectural decisions.",
+    "skill_ids": [
+      "software-architecture",
+      "software-design",
+      "design-patterns",
+      "microservices",
+      "distributed-systems",
+      "security-engineering",
+      "observability-monitoring"
+    ]
+  },
+  {
+    "id": "solution-architect",
+    "name": "Solution Architect",
+    "description": "Translates business requirements into secure, scalable solutions spanning applications, integrations, data, and cloud infrastructure.",
+    "skill_ids": [
+      "software-architecture",
+      "cloud-architecture",
+      "api-development",
+      "database-development",
+      "security-engineering",
+      "distributed-systems",
+      "technical-documentation"
+    ]
+  },
+  {
+    "id": "ai-engineer",
+    "name": "AI Engineer",
+    "description": "Integrates AI models into applications and builds workflows for inference, evaluation, retrieval, and tool execution.",
+    "skill_ids": [
+      "python-development",
+      "ai-machine-learning",
+      "generative-ai",
+      "api-development",
+      "data-engineering",
+      "cloud-architecture",
+      "software-testing"
+    ]
+  },
+  {
+    "id": "generative-ai-engineer",
+    "name": "Generative AI Engineer",
+    "description": "Builds LLM-powered applications using prompt engineering, retrieval-augmented generation, tool calling, evaluation, and guardrails.",
+    "skill_ids": [
+      "python-development",
+      "generative-ai",
+      "ai-machine-learning",
+      "api-development",
+      "database-development",
+      "cloud-architecture",
+      "observability-monitoring"
+    ]
+  },
+  {
+    "id": "data-engineer",
+    "name": "Data Engineer",
+    "description": "Builds reliable data ingestion, transformation, storage, and processing pipelines for analytics and applications.",
+    "skill_ids": [
+      "python-development",
+      "sql-programming",
+      "data-engineering",
+      "database-development",
+      "distributed-systems",
+      "cloud-architecture",
+      "cicd"
+    ]
+  },
+  {
+    "id": "security-engineer",
+    "name": "Security Engineer",
+    "description": "Protects applications and infrastructure through secure design, identity controls, vulnerability assessment, and security monitoring.",
+    "skill_ids": [
+      "security-engineering",
+      "networking",
+      "linux-administration",
+      "cloud-security",
+      "authentication-and-authorization",
+      "security-testing"
+    ]
+  },
+  {
+    "id": "technical-lead",
+    "name": "Technical Lead",
+    "description": "Guides engineering teams on technical design, code quality, implementation choices, delivery practices, and mentoring.",
+    "skill_ids": [
+      "software-architecture",
+      "software-design",
+      "version-control",
+      "software-testing",
+      "agile-project-management",
+      "technical-documentation",
+      "communication",
+      "problem-solving"
+    ]
+  },
+  {
+    "id": "engineering-manager",
+    "name": "Engineering Manager",
+    "description": "Leads engineering delivery, team development, technical planning, cross-functional collaboration, and continuous improvement.",
+    "skill_ids": [
+      "agile-project-management",
+      "communication",
+      "professional-development",
+      "technical-documentation",
+      "problem-solving",
+      "software-architecture"
+    ]
+  },
+  {
+    "id": "junior-software-developer",
+    "name": "Junior Software Developer",
+    "description": "Implements well-defined features, writes maintainable code, learns engineering practices, and contributes to team projects under guidance.",
+    "skill_ids": [
+      "programming-fundamentals",
+      "data-structures-algorithms",
+      "object-oriented-programming",
+      "version-control",
+      "software-testing",
+      "problem-solving",
+      "communication"
+    ]
+  }
+ 
+]

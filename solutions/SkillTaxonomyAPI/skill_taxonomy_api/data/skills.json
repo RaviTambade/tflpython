@@ -1,0 +1,92 @@
+[
+  {
+    "id": "python-development",
+    "name": "Python Development",
+    "description": "Build and maintain applications using Python.",
+    "category_id": "programming",
+    "proficiency": "Advanced",
+    "technology_ids": ["python"]
+  },
+  {
+    "id": "cloud-architecture",
+    "name": "Cloud Architecture",
+    "description": "Design reliable, secure, and scalable cloud solutions.",
+    "category_id": "cloud",
+    "proficiency": "Intermediate",
+    "technology_ids": ["azure"]
+  },
+ 
+  {
+    "id": "csharp-programming",
+    "name": "C# Programming",
+    "description": "Develop applications using C# fundamentals, object-oriented programming, collections, exception handling, delegates, and modern language features.",
+    "category_id": "programming",
+    "proficiency": "Advanced",
+    "technology_ids": ["dotnet"]
+  },
+  {
+    "id": "dotnet-development",
+    "name": ".NET Development",
+    "description": "Build, configure, debug, and maintain applications using the .NET platform, runtime, SDK, libraries, and project system.",
+    "category_id": "backend-development",
+    "proficiency": "Advanced",
+    "technology_ids": ["dotnet"]
+  },
+  {
+    "id": "aspnet-core",
+    "name": "ASP.NET Core",
+    "description": "Develop web applications and backend services using ASP.NET Core, middleware, routing, configuration, logging, and request processing.",
+    "category_id": "backend-development",
+    "proficiency": "Advanced",
+    "technology_ids": ["dotnet"]
+  },
+  {
+    "id": "web-api-development",
+    "name": "RESTful Web API Development",
+    "description": "Design and implement REST APIs using HTTP methods, status codes, resource-oriented URLs, validation, authentication, authorization, and API documentation.",
+    "category_id": "backend-development",
+    "proficiency": "Advanced",
+    "technology_ids": ["dotnet", "springboot", "nodejs"]
+  },
+  {
+    "id": "entity-framework-core",
+    "name": "Entity Framework Core",
+    "description": "Work with relational databases using Entity Framework Core, LINQ queries, entity relationships, migrations, change tracking, and database operations.",
+    "category_id": "database-development",
+    "proficiency": "Intermediate",
+    "technology_ids": ["dotnet"]
+  },
+  {
+    "id": "linq",
+    "name": "Language Integrated Query (LINQ)",
+    "description": "Query, filter, sort, group, project, and transform collections and data sources using LINQ query syntax and method syntax.",
+    "category_id": "programming",
+    "proficiency": "Intermediate",
+    "technology_ids": ["dotnet"]
+  },
+  {
+    "id": "dependency-injection",
+    "name": "Dependency Injection",
+    "description": "Design loosely coupled applications using dependency injection, service registration, constructor injection, and appropriate service lifetimes.",
+    "category_id": "software-architecture",
+    "proficiency": "Intermediate",
+    "technology_ids": ["dotnet", "springboot"]
+  },
+  {
+    "id": "dotnet-testing",
+    "name": ".NET Application Testing",
+    "description": "Write and execute unit tests, integration tests, and API tests for .NET applications using testing frameworks, test doubles, and assertions.",
+    "category_id": "software-testing",
+    "proficiency": "Intermediate",
+    "technology_ids": ["dotnet"]
+  },
+  {
+    "id": "microservices",
+    "name": "Microservices Architecture",
+    "description": "Design and develop independently deployable services with clear boundaries, service-to-service communication, resilience, observability, and distributed data management.",
+    "category_id": "software-architecture",
+    "proficiency": "Advanced",
+    "technology_ids": ["dotnet", "springboot", "nodejs"]
+  }
+
+]

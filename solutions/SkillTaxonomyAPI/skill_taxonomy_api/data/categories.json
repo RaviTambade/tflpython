@@ -1,0 +1,215 @@
+[
+  
+ 
+  {
+    "id": "programming",
+    "name": "Programming",
+    "description": "Programming languages, coding fundamentals, data structures, algorithms, and software development practices.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "backend-development",
+    "name": "Backend Development",
+    "description": "Server-side application development, business logic, API implementation, authentication, and service integration.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "frontend-development",
+    "name": "Frontend Development",
+    "description": "Building responsive, accessible, interactive user interfaces and client-side web applications.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "fullstack-development",
+    "name": "Full Stack Development",
+    "description": "Developing complete applications across frontend interfaces, backend services, databases, and API integration.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "web-development",
+    "name": "Web Development",
+    "description": "Designing, developing, and maintaining web applications using browser technologies, server-side frameworks, and web standards.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "api-development",
+    "name": "API Development",
+    "description": "Designing, implementing, documenting, securing, and maintaining REST APIs and other service interfaces.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "database-development",
+    "name": "Database Development",
+    "description": "Database schema design, SQL queries, data modeling, transactions, indexing, and application data access.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "database-administration",
+    "name": "Database Administration",
+    "description": "Database installation, configuration, backup, recovery, security, performance tuning, and operational maintenance.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "software-architecture",
+    "name": "Software Architecture",
+    "description": "Designing maintainable, scalable, secure, and resilient software systems using architectural principles and patterns.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "software-design",
+    "name": "Software Design",
+    "description": "Applying object-oriented design, SOLID principles, abstraction, encapsulation, modularity, and design patterns.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "data-structures-algorithms",
+    "name": "Data Structures and Algorithms",
+    "description": "Solving computational problems using arrays, linked lists, stacks, queues, trees, graphs, searching, sorting, and complexity analysis.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "cloud",
+    "name": "Cloud Platforms",
+    "description": "Cloud architecture, managed services, infrastructure provisioning, deployment, security, and cloud operations.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "cloud-architecture",
+    "name": "Cloud Architecture",
+    "description": "Designing secure, reliable, scalable, cost-effective, and highly available cloud-based systems.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "devops",
+    "name": "DevOps",
+    "description": "Automating software delivery, infrastructure management, deployment workflows, monitoring, and collaboration between development and operations.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "linux-administration",
+    "name": "Linux Administration",
+    "description": "Managing Linux systems, users, permissions, processes, packages, networking, services, and server operations.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "containerization",
+    "name": "Containerization",
+    "description": "Packaging and running applications using containers, images, volumes, networks, and container orchestration technologies.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "cicd",
+    "name": "CI/CD and Release Engineering",
+    "description": "Building automated pipelines for compilation, testing, artifact management, deployment, and release validation.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "software-testing",
+    "name": "Software Testing",
+    "description": "Verifying software correctness through test planning, test cases, unit testing, integration testing, regression testing, and defect reporting.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "automation-testing",
+    "name": "Automation Testing",
+    "description": "Automating functional, regression, UI, and API tests using test frameworks, reusable scripts, assertions, and test data.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "performance-testing",
+    "name": "Performance Testing",
+    "description": "Evaluating application responsiveness, throughput, scalability, resource utilization, and behavior under different workloads.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "security-engineering",
+    "name": "Security Engineering",
+    "description": "Applying secure coding practices, identity management, access control, vulnerability prevention, encryption, and application security testing.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "networking",
+    "name": "Computer Networking",
+    "description": "Understanding TCP/IP, DNS, HTTP, ports, routing, sockets, firewalls, and network troubleshooting.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "microservices",
+    "name": "Microservices",
+    "description": "Designing and operating independently deployable services with clear boundaries, communication contracts, resilience, and distributed data management.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "distributed-systems",
+    "name": "Distributed Systems",
+    "description": "Building systems that coordinate across multiple processes or machines using messaging, consistency models, fault tolerance, and distributed coordination.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "messaging-event-driven",
+    "name": "Messaging and Event-Driven Systems",
+    "description": "Designing asynchronous communication, event-driven workflows, message processing, and reliable integration between services.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "ai-machine-learning",
+    "name": "AI and Machine Learning",
+    "description": "Developing intelligent applications using machine learning, model inference, evaluation, data preparation, and AI integration.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "generative-ai",
+    "name": "Generative AI Engineering",
+    "description": "Building applications with large language models, prompt engineering, retrieval-augmented generation, tool calling, and model evaluation.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "data-engineering",
+    "name": "Data Engineering",
+    "description": "Building data pipelines, data transformation workflows, ingestion systems, and reliable data storage and processing solutions.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "version-control",
+    "name": "Version Control",
+    "description": "Managing source code changes, branches, merges, pull requests, collaboration, and release history using version control systems.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "agile-project-management",
+    "name": "Agile and Project Management",
+    "description": "Planning and delivering software through iterative development, Scrum, sprint planning, backlog management, reviews, and retrospectives.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "observability-monitoring",
+    "name": "Observability and Monitoring",
+    "description": "Monitoring software behavior using logs, metrics, traces, dashboards, alerts, and incident analysis.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "technical-documentation",
+    "name": "Technical Documentation",
+    "description": "Creating API specifications, architecture diagrams, design documents, setup instructions, runbooks, and developer guides.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "problem-solving",
+    "name": "Problem Solving",
+    "description": "Analyzing requirements, decomposing complex problems, identifying root causes, designing solutions, and validating outcomes.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "communication",
+    "name": "Technical Communication",
+    "description": "Explaining technical concepts clearly, documenting decisions, presenting solutions, and collaborating effectively with teams.",
+    "taxonomy_id": "software-engineering"
+  },
+  {
+    "id": "professional-development",
+    "name": "Professional Development",
+    "description": "Developing workplace readiness, teamwork, accountability, adaptability, learning habits, and professional conduct.",
+    "taxonomy_id": "software-engineering"
+  }
+]
+ 
