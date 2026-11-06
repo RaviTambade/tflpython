@@ -1,14 +1,12 @@
-# Introduction to Python Programming
-
 # Learn Python Not Just to Code, But to Create Solutions That Change Lives.
  
 ## 1. The first question: WHY?
 
 The classroom is quiet. Eighty enthusiastic students sit with notebooks open. The mentor walks to the whiteboard and writes one word.
 
-# WHY?
+### WHY?
 
-👨‍🏫 Mentor (Ravi Sir): Good morning, everyone! Welcome to Transflower Learning. Today, we are not simply beginning a Python programming course. We are beginning a journey that may change the way you think, learn and approach problems. Some of you want a software engineering job. Some want to become AI engineers. Some dream of working at Microsoft, Google, Amazon or Infosys.
+Mentor (Ravi Sir): Good morning, everyone! Welcome to Transflower Learning. Today, we are not simply beginning a Python programming course. We are beginning a journey that may change the way you think, learn and approach problems. Some of you want a software engineering job. Some want to become AI engineers. Some dream of working at Microsoft, Google, Amazon or Infosys.
 
 Some simply want to support their families and build a better future. Whatever your dream is, remember:
 
@@ -16,15 +14,15 @@ Some simply want to support their families and build a better future. Whatever y
 
 Let me ask you something.
 
-👨‍🏫 Mentor: What is programming?
+Mentor: What is programming?
 
-👨‍🎓 Student 1: Sir, writing instructions for a computer.
+Student 1: Sir, writing instructions for a computer.
 
-👨‍🏫 Mentor: Correct. But is that enough?
+Mentor: Correct. But is that enough?
 
-👨‍🎓 Student 2: We write code to solve problems, sir.
+Student 2: We write code to solve problems, sir.
 
-👨‍🏫 Mentor: Excellent! That is where our journey begins.
+Mentor: Excellent! That is where our journey begins.
 
 Programming is not about instructing computers alone. It is about solving human problems using computers.
 
@@ -83,11 +81,11 @@ AI Agents
 
 Today, AI can generate code in seconds. Tomorrow, AI agents may independently execute many software development tasks. Now, I have a question for you.
 
-👨‍🏫 Mentor: If AI can write code, what will make you valuable?
+Mentor: If AI can write code, what will make you valuable?
 
-👨‍🎓 Student: Our ability to solve problems, sir.
+Student: Our ability to solve problems, sir.
 
-👨‍🏫 Mentor: Absolutely!
+Mentor: Absolutely!
 
 Your value comes from your ability to:
 
@@ -156,17 +154,17 @@ Solution : How does the application create value?
 
 Imagine a customer walks into a medical store. He says: "I need medicine." This simple statement can become a complete software application.
 
-👨‍🏫 Mentor: What questions should the shopkeeper ask?
+Mentor: What questions should the shopkeeper ask?
 
-👨‍🎓 Student 1: Which medicine do you need?
+Student 1: Which medicine do you need?
 
-👨‍🎓 Student 2: How many tablets?
+Student 2: How many tablets?
 
-👨‍🎓 Student 3: Is the medicine available?
+Student 3: Is the medicine available?
 
-👨‍🎓 Student 4: What is the price?
+Student 4: What is the price?
 
-👨‍🏫 Mentor: Very good! What else?
+Mentor: Very good! What else?
 
 - Is a prescription required?
 - Is the medicine expired?
@@ -231,15 +229,15 @@ What does it do? It displays a message. Let's break it down.
 | `()`                       | Function call parentheses |
 | `"Welcome to Transflower"` | String argument           |
 
-👨‍🏫 Mentor: What if I want to display your name?
+Mentor: What if I want to display your name?
 
-👨‍🎓 Student: Sir, I can write:
+Student: Sir, I can write:
 
 ```
 print("Rahul Patil")
 ```
 
-👨‍🏫 Mentor: Excellent! You have just written your first Python instruction.
+Mentor: Excellent! You have just written your first Python instruction.
 
 First Python milestone
  
@@ -428,11 +426,11 @@ These skills will remain valuable even when programming languages evolve.
  /______________________________________\
 ```
 
-👨‍🏫 Mentor: What happens if the foundation of a building is weak?
+Mentor: What happens if the foundation of a building is weak?
 
-👨‍🎓 Student: The building may collapse, sir.
+Student: The building may collapse, sir.
 
-👨‍🏫 Mentor: Exactly! The same principle applies to software engineering. Weak customer understanding creates weak business requirements. Weak business understanding creates poor system design. Poor system design creates poor software. Strong engineers build from the bottom up.
+Mentor: Exactly! The same principle applies to software engineering. Weak customer understanding creates weak business requirements. Weak business understanding creates poor system design. Poor system design creates poor software. Strong engineers build from the bottom up.
 
 ## 11. The role of AI in your Python journey
 
@@ -480,15 +478,15 @@ Reliable Software
 
 Student activity · 15 minutes
 
-👨‍🏫 Mentor: I want everyone to close their laptops for a moment. Imagine you are developing a Student Attendance Management System. What is the actual problem?
+Mentor: I want everyone to close their laptops for a moment. Imagine you are developing a Student Attendance Management System. What is the actual problem?
 
-👨‍🎓 Student 1: Teachers need to record attendance.
+Student 1: Teachers need to record attendance.
 
-👨‍🎓 Student 2: Students should know their attendance percentage.
+Student 2: Students should know their attendance percentage.
 
-👨‍🎓 Student 3: Administrators need reports.
+Student 3: Administrators need reports.
 
-👨‍🏫 Mentor: Excellent!
+Mentor: Excellent!
 
 Let's design the workflow.
 
@@ -606,7 +604,7 @@ Throughout this journey, I will not merely teach Python syntax. Together, we wil
  
 ## 16. Closing words
 
-👨‍🏫 Ravi Sir: Students, I want you to remember four things.  A programming language is only a medium. The true art of software engineering lies in understanding people, modeling businesses and designing systems that improve lives.  At Transflower, we don't measure success by how many programs you can write. We measure it by how many real-world problems you can solve. When you understand the customer, the business and the system, Python becomes more than a language. It becomes your tool for innovation. From today, don't think of yourself as someone learning Python. Think of yourself as a future software engineer who uses Python to transform ideas into solutions and dreams into reality.
+Ravi Sir: Students, I want you to remember four things.  A programming language is only a medium. The true art of software engineering lies in understanding people, modeling businesses and designing systems that improve lives.  At Transflower, we don't measure success by how many programs you can write. We measure it by how many real-world problems you can solve. When you understand the customer, the business and the system, Python becomes more than a language. It becomes your tool for innovation. From today, don't think of yourself as someone learning Python. Think of yourself as a future software engineer who uses Python to transform ideas into solutions and dreams into reality.
 
 # Welcome to Transflower!
 
