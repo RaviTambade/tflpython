@@ -122,37 +122,19 @@ Students learned syntax first and discovered the purpose much later. At Transflo
 
 ## The Transflower Learning Philosophy
 
-# 01 
-
-Customer : Who needs the solution?
-
-# 02
-
-Business : How does the business operate?
-
-# 03
-
-Problem : What difficulty are we solving?
-
-# 04
-
-System : How should the solution work?
-
-# 05
-
-Logic : What rules and decisions are required?
-
-# 06
-
-Python : How do we implement the logic?
-
-# 07
-
-Solution : How does the application create value?
+1.Customer : Who needs the solution?
+2.Business : How does the business operate?
+3.Problem : What difficulty are we solving?
+4.System : How should the solution work?
+5.Logic : What rules and decisions are required?
+6.Python : How do we implement the logic?
+7.Solution : How does the application create value?
 
 ### A practical example: Medical Store Management
 
-Imagine a customer walks into a medical store. He says: "I need medicine." This simple statement can become a complete software application.
+Imagine a customer walks into a medical store. 
+
+He says: "I need medicine." This simple statement can become a complete software application.
 
 Mentor: What questions should the shopkeeper ask?
 
